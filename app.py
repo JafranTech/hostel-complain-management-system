@@ -58,7 +58,7 @@ def login():
         password = request.form['password']
         
         # Simple hardcoded admin credentials
-        if username == 'admin' and password == 'admin123':
+        if username == 'jafran' and password == 'kingjafran':
             session['admin_logged_in'] = True
             return redirect(url_for('admin_dashboard'))
         else:
